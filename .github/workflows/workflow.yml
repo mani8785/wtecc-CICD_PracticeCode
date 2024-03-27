@@ -8,7 +8,9 @@ on:
 
 jobs:
   build:
+  # The virtual machine
     runs-on: ubuntu-latest
+    # the container on top the virtual machine
     container: python:3.9-slim
     steps:
       - name: Checkout
